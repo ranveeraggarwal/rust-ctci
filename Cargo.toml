@@ -1,5 +1,5 @@
 [package]
-name = "rust_ctci"
+name = "rustctci"
 version = "0.1.0"
 authors = ["Ranveer Aggarwal <ranveerag2arwal@gmail.com>"]
 
