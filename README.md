@@ -8,4 +8,4 @@ Rust CTCI
 
 ## Contributing
 
-I am currently not accepting pull requests. This is a personal exercise to learn Rust and prepare for interviews. I might accept contributions later.
+I'm currently not accepting pull requests. This is a personal exercise to learn Rust and prepare for interviews. I might accept contributions later.
