@@ -27,10 +27,9 @@ fn is_unique_chars_hash(input_string: &str) -> bool {
 mod q1_tests {
     use ch1::q1::is_unique_chars_sort;
 
-    #[should_panic]
     #[test]
     fn lol_is_not_unique() {
-        assert!(is_unique_chars_sort("lol"));
+        assert_eq!(is_unique_chars_sort("lol"), false);
     }
 
     #[test]
@@ -50,10 +49,9 @@ mod q1_tests {
 
     use ch1::q1::is_unique_chars_hash;
     
-    #[should_panic]
     #[test]
     fn lol_is_not_unique_hash() {
-        assert!(is_unique_chars_hash("lol"));
+        assert_eq!(is_unique_chars_hash("lol"), false);
     }
 
     #[test]

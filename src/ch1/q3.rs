@@ -12,9 +12,6 @@ fn urlify (input_string: &str, true_length:i32) -> String {
             }
         }
     }
-    if return_string.len() != input_string.len() {
-        panic!("{message}", message="Wrong inputs.");
-    }
     return return_string;
 }
 
@@ -67,12 +64,6 @@ mod q3_tests {
         assert_eq!(urlify(" Mr John Smith      ", 14), "%20Mr%20John%20Smith");
     }
 
-    #[should_panic]
-    #[test]
-    fn urlify_test_4() {
-        assert_eq!(urlify(" Mr John Smith     ", 14), "%20Mr%20John%20Smith");
-    }
-
     #[test]
     fn urlify_reverse_test_1() {
         assert_eq!(urlify_reverse("Mr John Smith    ", 13), "Mr%20John%20Smith");
@@ -87,10 +78,4 @@ mod q3_tests {
     fn urlify_reverse_test_3() {
         assert_eq!(urlify_reverse(" Mr John Smith      ", 14), "%20Mr%20John%20Smith");
     }
-
-    #[should_panic]
-    #[test]
-    fn urlify_reverse_test_4() {
-        assert_eq!(urlify_reverse(" Mr John Smith     ", 14), "%20Mr%20John%20Smith");
-    }        
 }

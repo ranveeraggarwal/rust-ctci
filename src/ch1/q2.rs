@@ -32,28 +32,24 @@ mod q2_tests {
         assert!(permutation("ranveer", "veenrar"));
     }
 
-    #[should_panic]
     #[test]
     fn is_not_permutation() {
-        assert!(permutation("ranveer", "sanveer"));
+        assert_eq!(permutation("ranveer", "sanveer"), false);
     }
 
-    #[should_panic]
     #[test]
     fn different_sized_permutation() {
-        assert!(permutation("ranveer", "ranveers"));   
+        assert_eq!(permutation("ranveer", "ranveers"), false);   
     }
 
-    #[should_panic]
     #[test]
     fn another_different_sized_permutation() {
-        assert!(permutation("ranveer", "ranv"));   
+        assert_eq!(permutation("ranveer", "ranv"), false);   
     }
 
-    #[should_panic]
     #[test]
     fn one_empty_string_permutation() {
-        assert!(permutation("ranveer", ""));   
+        assert_eq!(permutation("ranveer", ""), false);   
     }
 
     #[test]
