@@ -49,8 +49,8 @@ fn urlify_reverse(input_string: &str, true_length:i32) -> String {
 
 #[cfg(test)]
 mod q3_tests {
-    use q3::urlify;
-    use q3::urlify_reverse;
+    use ch1::q3::urlify;
+    use ch1::q3::urlify_reverse;
 
     #[test]
     fn urlify_test_1() {

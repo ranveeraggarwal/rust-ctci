@@ -1,5 +1,5 @@
 [package]
-name = "ch_1_arrays_and_strings"
+name = "rust_ctci"
 version = "0.1.0"
 authors = ["Ranveer Aggarwal <ranveerag2arwal@gmail.com>"]
 

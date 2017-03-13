@@ -25,7 +25,7 @@ fn permutation (string_1: &str, string_2: &str) -> bool {
 
 #[cfg(test)]
 mod q2_tests {
-    use q2::permutation;
+    use ch1::q2::permutation;
 
     #[test]
     fn is_permutation() {

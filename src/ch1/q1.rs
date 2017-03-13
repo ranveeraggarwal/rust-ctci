@@ -25,7 +25,7 @@ fn is_unique_chars_hash(input_string: &str) -> bool {
 
 #[cfg(test)]
 mod q1_tests {
-    use q1::is_unique_chars_sort;
+    use ch1::q1::is_unique_chars_sort;
 
     #[test]
     #[should_panic]
@@ -48,7 +48,7 @@ mod q1_tests {
         assert!(is_unique_chars_sort("a"));
     }
 
-    use q1::is_unique_chars_hash;
+    use ch1::q1::is_unique_chars_hash;
     
     #[test]
     #[should_panic]
