@@ -1,6 +1,8 @@
 Rust CTCI
 ===
 
+[![Build Status](https://travis-ci.org/ranveeraggarwal/rust-ctci.svg?branch=master)](https://travis-ci.org/ranveeraggarwal/rust-ctci)
+
 [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/) solutions in [Rust](https://www.rust-lang.org/en-US/).
 
 ## Contributing
