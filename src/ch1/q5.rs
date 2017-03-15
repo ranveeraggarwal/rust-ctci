@@ -70,4 +70,14 @@ mod q5_tests {
 	fn one_away_not_pale_bake() {
 		assert_eq!(one_away("pale", "bake"), false);
 	}
+
+	#[test]
+	fn one_away_ple_pales() {
+		assert_eq!(one_away("ple", "pales"), false);
+	}
+
+	#[test]
+	fn one_away_ple_pbxe() {
+		assert_eq!(one_away("ple", "pbxe"), false);
+	}
 }
