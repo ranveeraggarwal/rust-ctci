@@ -29,27 +29,27 @@ mod q4_tests {
     use ch1::q4::palindrome_permutation;
 
     #[test]
-    fn oll_is_palindrome_permutation() {
+    fn palindrome_permutation_oll() {
         assert!(palindrome_permutation("oll"));
     }
 
     #[test]
-    fn ooolll_is_not_palindrome_permutation() {
+    fn palindrome_permutation_not_ooolll() {
         assert_eq!(palindrome_permutation("ooolll"), false);
     }
 
     #[test]
-    fn a_string_is_not_palindrome_permutation() {
+    fn palindrome_permutation_not_a_string() {
         assert_eq!(palindrome_permutation("so patient a nurse to nurse a patient so"), false);
     }    
 
     #[test]
-    fn a_string_is_palindrome_permutation() {
+    fn palindrome_permutation_a_string() {
         assert!(palindrome_permutation("R acecaR"));
     }
 
     #[test]
-    fn a_unicode_string_is_palindrome_permutation() {
+    fn palindrome_permutation_a_unicode_string() {
         assert!(palindrome_permutation("ʥቕ ʥቕ"));
     }    
 }
