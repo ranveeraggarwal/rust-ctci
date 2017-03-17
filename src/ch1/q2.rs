@@ -28,37 +28,37 @@ mod q2_tests {
     use ch1::q2::permutation;
 
     #[test]
-    fn is_permutation() {
+    fn permutation_ranveer() {
         assert!(permutation("ranveer", "veenrar"));
     }
 
     #[test]
-    fn is_not_permutation() {
+    fn permutation_not_ranveer() {
         assert_eq!(permutation("ranveer", "sanveer"), false);
     }
 
     #[test]
-    fn different_sized_permutation() {
+    fn permutation_different_sized() {
         assert_eq!(permutation("ranveer", "ranveers"), false);   
     }
 
     #[test]
-    fn another_different_sized_permutation() {
+    fn permutation_another_different_sized() {
         assert_eq!(permutation("ranveer", "ranv"), false);   
     }
 
     #[test]
-    fn one_empty_string_permutation() {
+    fn permutation_one_empty_string() {
         assert_eq!(permutation("ranveer", ""), false);   
     }
 
     #[test]
-    fn both_empty_string_permutation() {
+    fn permutation_both_empty_string() {
         assert!(permutation("", ""));   
     }
 
     #[test]
-    fn same_characters_permutation() {
+    fn permutation_same_characters() {
         assert!(permutation("aaaa", "aaaa"));   
     }    
 }
