@@ -1,13 +1,9 @@
 #[cfg(test)]
+// Assuming that 0 rows, cols case doesn't appear. 
+// A simple if statement can fix that too, but it isn't really required.
 fn zero_matrix(matrix: &mut Vec<Vec<i32>>) -> () {
 	let rows: usize = matrix.len();
-	if rows == 0 {
-		return ();
-	}
 	let cols: usize = matrix[0].len();
-	if cols == 0 {
-		return ();
-	}
 
 	let mut is_top_row_zero: bool = false;
 	let mut is_first_col_zero: bool = false;
