@@ -28,44 +28,44 @@ mod q1_tests {
     use ch1::q1::is_unique_chars_sort;
 
     #[test]
-    fn lol_is_not_unique() {
+    fn is_unique_not_lol() {
         assert_eq!(is_unique_chars_sort("lol"), false);
     }
 
     #[test]
-    fn world_is_unique() {
+    fn is_unique_world() {
         assert!(is_unique_chars_sort("World"));
     }
 
     #[test]
-    fn empty_is_unique() {
+    fn is_unique_empty() {
         assert!(is_unique_chars_sort(""));
     }
 
     #[test]
-    fn a_is_unique() {
+    fn is_unique_a() {
         assert!(is_unique_chars_sort("a"));
     }
 
     use ch1::q1::is_unique_chars_hash;
     
     #[test]
-    fn lol_is_not_unique_hash() {
+    fn is_unique_hash_not_lol() {
         assert_eq!(is_unique_chars_hash("lol"), false);
     }
 
     #[test]
-    fn world_is_unique_hash() {
+    fn is_unique_hash_world() {
         assert!(is_unique_chars_hash("World"));
     }
 
     #[test]
-    fn empty_is_unique_hash() {
+    fn is_unique_hash_empty() {
         assert!(is_unique_chars_hash(""));
     }
 
     #[test]
-    fn a_is_unique_hash() {
+    fn is_unique_hash_a() {
         assert!(is_unique_chars_hash("a"));
     }
 }
