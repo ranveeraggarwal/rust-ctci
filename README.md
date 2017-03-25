@@ -17,3 +17,7 @@ in the project's root directory.
 ## Contributing
 
 I'm currently not accepting pull requests. This is a personal exercise to learn Rust and prepare for interviews. I might accept contributions later.
+
+## Credits
+
+* **Linked Lists**: `./src/structures/singlies.rs` has been taken from [http://cglab.ca/~abeinges/blah/too-many-lists/book/](http://cglab.ca/~abeinges/blah/too-many-lists/book/).

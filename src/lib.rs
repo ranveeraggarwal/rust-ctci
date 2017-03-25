@@ -1,3 +1,8 @@
+#![allow(dead_code)]
+mod structures {
+	mod singlies; // Signly linked lists
+}
+
 mod ch1 {
 	mod q1;
 	mod q2;
