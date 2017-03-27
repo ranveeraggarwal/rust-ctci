@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 mod structures {
-	mod singlies; // Signly linked lists
+	pub mod singlies; // Signly linked lists
 }
 
 mod ch1 {
@@ -17,4 +17,5 @@ mod ch1 {
 
 mod ch2 {
 	mod q1;
+	mod q2;
 }
