@@ -49,10 +49,9 @@ mod q2_tests {
 	}
 
 	#[test]
-	fn third_test() {
+	fn fourth_test() {
 		let list = List::new();
-		let list = list.append(2);
 		let mut k = 1;
-		assert_eq!(kthlast(&list, k), 2);
+		assert_eq!(kthlast(&list, k), 0);
 	}
 }
